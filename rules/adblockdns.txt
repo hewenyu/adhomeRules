@@ -33,7 +33,6 @@
 ||v20.events.data.microsoft.com^
 ||self.events.data.microsoft.com^
 ||targetednotifications-tm.trafficmanager.net^
-||anonymousinfo-cn-1316693915.cos.ap-chengdu.myqcloud.com^
 !
 ! PCDN / 共享上行带宽 SDK（网心云、Titan Network）
 ||onethingpcs.com^
