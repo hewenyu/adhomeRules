@@ -2,7 +2,7 @@
 ! Title: AdBlock DNS
 ! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则
 ! Homepage: https://github.com/hewenyu/adhomeRules
-! Source: 
+! Source:
 !
 ||ixigua.com^
 ||vegslb.com^
@@ -12,3 +12,34 @@
 ||ahdohpiechei.com^
 ||qtaeixd.com^
 ||bsgslb.cn^
+||ojamrej.com^
+!
+! 小米电视 / OTT 广告与统计（上游列表未覆盖）
+||adx.v.mitvos.com^
+||track.extscreen.com^
+||sdkgen.data.tianwenca.com^
+||dataflow.snm0516.aisee.tv^
+||bi.ptqy.gitv.tv^
+||gstat.ptmi.gitv.tv^
+||dsplog.vivo.com.cn^
+!
+! 厂商遥测：上游只拦了 .com，漏了 .cn 或同类子域
+||events.telemetry.data.nvidia.cn^
+||gx-target-experiments-frontend-api.gx.nvidia.cn^
+||rum.battlenet.com.cn^
+||webapi-bury.blizzard.cn^
+||quicktracking-api.leigod.com^
+||v10.events.data.microsoft.com^
+||v20.events.data.microsoft.com^
+||self.events.data.microsoft.com^
+||targetednotifications-tm.trafficmanager.net^
+||anonymousinfo-cn-1316693915.cos.ap-chengdu.myqcloud.com^
+!
+! PCDN / 共享上行带宽 SDK（网心云、Titan Network）
+||onethingpcs.com^
+||titannetwork.cn^
+!
+! 字节跳动 APM / AB 实验
+||abtestvm.bytedance.com^
+||lf3-short.ibytedapm.com^
+||bytereplay.bytedance.net^
